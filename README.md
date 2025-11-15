@@ -5,8 +5,12 @@
 
 This repository is the **starter** for your End Semester Project submission in GitHub Classroom. You can implement your solution and push your work in this repository. Please free to edit this README.md file as per your requirements.
 
-> **Scope (as per assignment brief):**
-> Give an introduction to your repository here: Eg. This repository contains a complete implementation for ...
+> **Scope (as per assignment brief):**  
+> This project implements a complete multi-class classification system for the MNIST handwritten digit dataset using only plain Python and basic numerical libraries (NumPy/SciPy). The goal is to apply and extend the machine-learning concepts learned in class, including Linear Regression, Classification, Clustering, Anomaly Detection, and ensemble methods such as Bagging and Boosting.  
+>
+> The MNIST dataset (train: 10,002 entries, validation: 2,499 entries) consists of 28×28 grayscale digit images represented as 784 pixel-intensity values. Using these datasets, we train multiple models coded entirely from scratch, tune their hyperparameters, analyze bias-variance trade-offs, and evaluate performance using the F1 score.  
+>
+> The final system combines multiple algorithms and ensemble techniques to achieve improved accuracy, while keeping total training time under 5 minutes. The trained models will later be evaluated by TAs on a hidden MNIST test set to assess both accuracy and runtime.
 
 ---
 
