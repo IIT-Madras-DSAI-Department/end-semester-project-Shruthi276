@@ -53,7 +53,7 @@ Before running the model, please ensure the following:
 Make sure you do Data preprocessing steps-
 1. **Normalize** the raw MNIST pixel values (divide by 255.0)  
 2. **Standardize**
-3. **Apply PCA** (64 components) 
+3. **Apply PCA** (128 components) 
 
 
 
