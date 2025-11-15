@@ -60,7 +60,7 @@ Make sure you do Data preprocessing steps-
 
 ## 🧾 Authors
 
-**<Rathod Shruthi DA24B022>**, IIT Madras (2025–26)
+**< Rathod Shruthi DA24B022 >**, IIT Madras (2025–26)
 
 
 ## Best Practices:
