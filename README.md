@@ -18,14 +18,20 @@ This repository is the **starter** for your End Semester Project submission in G
 
 ## 📁 Repository Structure
 
-* Describe your repository structure here. Explain about overall code organization.
+
+- **algorithms.py** — contains all algorithm implementations written from scratch.  
+- **main.py** — loads MNIST CSV data, preprocesses it, trains all models, performs ensembling, and prints final results.  
+- **ENDSEM_LAB_REPORT.pdf** — final written report submitted for evaluation.  
+- **README.md** — project documentation.
 
 ---
 
+
+
 ## 📦 Installation & Dependencies
-
-* Mention all the related instructions for installation of related packages for running your code here.
-
+```
+pip install numpy pandas scikit-learn
+```
 ---
 
 ## ▶️ Running the Code
@@ -34,17 +40,23 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ### A. Command-line (recommended for grading)
 
-* Mention the instructions to run you .py files.
-  
----
+Before running the model, please ensure the following:
 
-## You can further add your own sections/titles along with corresponding contents here:
+- run `algorithms.py` contains **all algorithm implementations**  
+  Make sure this file is present in the same directory.
 
----
+- run  `main.py` : 
+Make sure you do Data preprocessing steps-
+1. **Normalize** the raw MNIST pixel values (divide by 255.0)  
+2. **Standardize**
+3. **Apply PCA** (64 components) 
+
+
+
 
 ## 🧾 Authors
 
-**<Name, Roll No.>**, IIT Madras (2025–26)
+**<Rathod Shruthi DA24B022>**, IIT Madras (2025–26)
 
 
 ## Best Practices:
